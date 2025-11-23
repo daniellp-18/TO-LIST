@@ -1,0 +1,7 @@
+/node_modules
+/.shadow-cljs
+/.cpcache
+/.vscode
+target
+*.zip
+.DS_Store

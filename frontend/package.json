@@ -1,0 +1,15 @@
+{
+  "name": "todo-clojure-frontend",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "^2.21.6"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "watch": "shadow-cljs watch app"
+  }
+}

@@ -1,0 +1,15 @@
+{:paths ["src" "resources"]
+ :deps {
+   ;; backend deps
+   org.clojure/clojure {:mvn/version "1.11.1"}
+   metosin/reitit {:mvn/version "0.5.18"}
+   ring/ring-core {:mvn/version "1.9.6"}
+   ring/ring-jetty-adapter {:mvn/version "1.9.6"}
+   ring/ring-json {:mvn/version "0.5.1"}
+   com.github.seancorfield/next.jdbc {:mvn/version "1.5.0"}
+   org.xerial/sqlite-jdbc {:mvn/version "3.40.0.0"}
+ }
+ :aliases {
+   :run {:main-opts ["-m" "backend.core"]}
+ }
+}
